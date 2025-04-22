@@ -24,7 +24,7 @@ jobs:
         ls -R
         pwd
     - name: Run script
-      run: python src/collect.py
+      run: python src/Main.py
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
